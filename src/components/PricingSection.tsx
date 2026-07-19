@@ -21,7 +21,7 @@ export function PricingSection({ standalone = false }: PricingSectionProps) {
           <article className="card pricing-card">
             <span className="pricing-card__label">Trial</span>
             <h3>₹0</h3>
-            <p>2 minutes free</p>
+            <p>10 minutes free</p>
             <ul>
               <li>
                 <Check size={16} />

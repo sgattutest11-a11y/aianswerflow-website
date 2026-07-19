@@ -11,7 +11,7 @@ export const navLinks = [
 
 export const heroChecks = [
   'Google sign-in',
-  '2-minute free trial',
+  '10-minute free trial',
   'Protected overlay',
   'Live transcription',
   'Screen capture OCR',
@@ -65,7 +65,7 @@ export const faqItems = [
   {
     question: 'What does the free plan include?',
     answer:
-      'New accounts start with a 2-minute free trial so you can test the desktop workflow before buying more time.',
+      'New accounts start with a 10-minute free trial so you can test the desktop workflow before buying more time.',
   },
   {
     question: 'How does paid access work?',
