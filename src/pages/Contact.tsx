@@ -6,10 +6,10 @@ export function Contact() {
       <section className="page-hero">
         <div className="container page-hero__content">
           <p className="eyebrow">Contact</p>
-          <h1>Support channels for launch and feedback</h1>
+          <h1>Support and setup links</h1>
           <p>
-            Keep support simple: direct email for help, social links for updates, and room to add
-            Discord later.
+            Keep contact simple: direct email for support and clear links for setup, pricing, and
+            downloads.
           </p>
         </div>
       </section>

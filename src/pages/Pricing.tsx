@@ -6,10 +6,10 @@ export function Pricing() {
       <section className="page-hero">
         <div className="container page-hero__content">
           <p className="eyebrow">Pricing</p>
-          <h1>Choose the plan that matches your interview pace</h1>
+          <h1>Choose the amount of session time you need</h1>
           <p>
-            Keep the free tier for light practice, or upgrade to Pro when you want unlimited
-            access and premium models.
+            New users get a short free trial. After that, session time is purchased inside the
+            desktop app through fixed time packs.
           </p>
         </div>
       </section>
@@ -19,10 +19,10 @@ export function Pricing() {
       <section className="section section--compact">
         <div className="container">
           <div className="card callout-card">
-            <h2>Checkout can be wired in later</h2>
+            <h2>Desktop checkout flow</h2>
             <p>
-              The `Subscribe` button is already placed so you can connect Razorpay Checkout without
-              redesigning the page.
+              AnswerFlow already exposes paid session packs through the desktop app, so the website
+              should describe the in-app purchase flow instead of a monthly subscription.
             </p>
           </div>
         </div>

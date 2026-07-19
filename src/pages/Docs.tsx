@@ -6,10 +6,10 @@ export function Docs() {
       <section className="page-hero">
         <div className="container page-hero__content">
           <p className="eyebrow">Docs</p>
-          <h1>Everything a new user needs to get started</h1>
+          <h1>Everything needed to start a desktop session</h1>
           <p>
-            Organize the product documentation around onboarding, settings, troubleshooting, and
-            common questions.
+            The docs focus on Windows setup, Google sign-in, session-time usage, and the protected
+            overlay workflow.
           </p>
         </div>
       </section>

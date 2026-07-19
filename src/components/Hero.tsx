@@ -9,10 +9,10 @@ export function Hero() {
       <div className="container hero-section__grid">
         <div>
           <p className="eyebrow">{siteTagline}</p>
-          <h1>Ace Every Coding Interview with AI</h1>
+          <h1>Keep interview answers close without leaving your workflow</h1>
           <p className="hero-copy">
-            Get calm, fast support during coding rounds, online assessments, and system design
-            interviews without breaking your flow.
+            AnswerFlow is a Windows desktop app with Google sign-in, session-based access, a
+            protected overlay, and fast answer generation for live technical interviews.
           </p>
 
           <ul className="hero-checks">
@@ -30,7 +30,7 @@ export function Hero() {
             </Link>
             <Link to="/docs" className="button button--secondary">
               <PlayCircle size={18} />
-              Watch Demo
+              Read Docs
             </Link>
           </div>
         </div>
@@ -40,7 +40,7 @@ export function Hero() {
           <img src={heroImage} alt="AnswerFlow AI interface preview" />
           <div className="hero-visual__panel">
             <span>Question</span>
-            <p>Explain the time complexity and walk through your edge cases clearly.</p>
+            <p>Explain the time complexity, trade-offs, and edge cases clearly before you code.</p>
           </div>
         </div>
       </div>

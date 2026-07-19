@@ -1,5 +1,5 @@
 export const siteName = 'AnswerFlow AI'
-export const siteTagline = 'AI Interview Copilot'
+export const siteTagline = 'Desktop Interview Overlay'
 
 export const navLinks = [
   { label: 'Features', to: '/#features' },
@@ -10,32 +10,32 @@ export const navLinks = [
 ]
 
 export const heroChecks = [
-  'Live Coding Help',
-  'LeetCode',
-  'HackerRank',
-  'System Design',
-  'Google Meet',
-  'Zoom',
+  'Google sign-in',
+  '2-minute free trial',
+  'Protected overlay',
+  'Live transcription',
+  'Screen capture OCR',
+  'Session timer',
 ]
 
 export const featureCards = [
   {
-    title: 'Live interview guidance',
+    title: 'Live answer support',
     description:
-      'Get fast, focused hints while you code so you can stay calm and keep momentum without losing your own voice.',
-    bullets: ['Context-aware suggestions', 'Low-friction workflow', 'Designed for coding rounds'],
+      'Get fast, focused responses during coding rounds and technical interviews without leaving your current screen.',
+    bullets: ['Context-aware answers', 'Low-friction overlay', 'Built for live sessions'],
   },
   {
-    title: 'Practice platform coverage',
+    title: 'Desktop-first workflow',
     description:
-      'Use the same assistant across LeetCode drills, HackerRank screens, and open-ended technical interviews.',
-    bullets: ['LeetCode practice', 'HackerRank rounds', 'System design prompts'],
+      'Add your resume, job description, and project files, then keep the overlay available while you work through the interview.',
+    bullets: ['Resume and JD context', 'Project file support', 'Typed and spoken prompts'],
   },
   {
-    title: 'Built for remote interviews',
+    title: 'Protected overlay',
     description:
-      'Keep support close by during screen-shares, collaborative editors, and fast-paced virtual interview sessions.',
-    bullets: ['Google Meet ready', 'Zoom ready', 'Focused, readable UI'],
+      'Use screen share protection, session tracking, and capture tools designed around remote interview conditions.',
+    bullets: ['Screen share protection', 'Session countdown', 'Screen OCR capture'],
   },
 ]
 
@@ -43,19 +43,19 @@ export const trustedLogos = ['Frontend Engineers', 'Backend Developers', 'Foundi
 
 export const howItWorksSteps = [
   {
-    title: 'Open AnswerFlow AI',
+    title: 'Sign in and prepare',
     description:
-      'Launch the app before your interview or practice session and keep the workspace ready in the background.',
+      'Sign in with Google, review your remaining session time, and add your resume, role notes, or project files.',
   },
   {
-    title: 'Ask for help naturally',
+    title: 'Start the overlay',
     description:
-      'Paste a prompt, describe the bug, or request a plan for the next step while you keep solving the problem.',
+      'Launch the floating overlay before the interview starts so prompts, transcripts, and answers stay within reach.',
   },
   {
-    title: 'Turn hints into answers',
+    title: 'Use voice, text, or capture',
     description:
-      'Use the guidance to structure your solution, explain trade-offs clearly, and move faster with confidence.',
+      'Speak, type, or capture text from the screen to generate answers while the server tracks session time in the background.',
   },
 ]
 
@@ -63,55 +63,55 @@ export const faqItems = [
   {
     question: 'What does the free plan include?',
     answer:
-      'The free plan includes 2 sessions per day with basic AI help, enough for testing the workflow before upgrading.',
+      'New accounts start with a 2-minute free trial so you can test the desktop workflow before buying more time.',
   },
   {
-    question: 'What will the Pro plan unlock?',
+    question: 'How does paid access work?',
     answer:
-      'Pro is planned to include unlimited sessions, access to Claude and GPT models, and faster priority handling.',
+      'AnswerFlow currently sells time packs through the desktop app: 1 hour for $10, 2 hours for $20, and 3 hours for $30.',
   },
   {
     question: 'Is the download available yet?',
     answer:
-      'The download page is ready for the installer flow, and the button can later be connected to your Electron release.',
+      'The site is structured for the Windows desktop release, including download guidance and onboarding pages.',
   },
   {
-    question: 'Can I connect checkout later?',
+    question: 'How do I buy more session time?',
     answer:
-      'Yes. The pricing CTA is already placed so you can wire it to Razorpay Checkout when the payment flow is ready.',
+      'Open the desktop app, sign in with Google, and use the Buy Session Time flow to open Razorpay checkout.',
   },
 ]
 
 export const docsSections = [
   {
     title: 'Getting Started',
-    description: 'A quick walkthrough of the core workflow and the app layout.',
+    description: 'Learn the desktop flow from sign-in to launching the protected overlay.',
   },
   {
     title: 'Installation',
-    description: 'Download, install, and launch the Windows desktop build.',
+    description: 'Download, install, and launch the Windows desktop app.',
   },
   {
     title: 'First Interview',
-    description: 'Prepare your first session and understand how to ask for help effectively.',
+    description: 'Prepare your first session with resume context, job description, and project files.',
   },
   {
     title: 'Settings',
-    description: 'Review upcoming customization options and model access.',
+    description: 'Review microphone, overlay, and session-related options.',
   },
   {
     title: 'FAQ',
-    description: 'Find short answers to common setup and usage questions.',
+    description: 'Find short answers about sign-in, session time, and the overlay workflow.',
   },
   {
     title: 'Troubleshooting',
-    description: 'Fix install issues, startup problems, or environment-related errors.',
+    description: 'Fix sign-in issues, install problems, microphone access, or session errors.',
   },
 ]
 
 export const contactChannels = [
   { label: 'Email', value: 'support@answerflow.ai', href: 'mailto:support@answerflow.ai' },
-  { label: 'Twitter', value: '@answerflowai', href: 'https://twitter.com/' },
-  { label: 'GitHub', value: 'github.com/answerflow', href: 'https://github.com/' },
-  { label: 'Discord', value: 'Coming later', href: '/contact' },
+  { label: 'Docs', value: 'Setup guides', href: '/docs' },
+  { label: 'Pricing', value: 'Session packs', href: '/pricing' },
+  { label: 'Download', value: 'Windows desktop app', href: '/download' },
 ]

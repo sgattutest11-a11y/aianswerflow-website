@@ -4,10 +4,10 @@ export function Terms() {
       <section className="page-hero">
         <div className="container page-hero__content">
           <p className="eyebrow">Terms</p>
-          <h1>Subscription terms</h1>
+          <h1>Usage and billing terms</h1>
           <p>
-            The layout below gives you a clean place to define usage terms, subscription rules, and
-            cancellation language later.
+            The current product flow is based on sign-in plus session-time purchases, so the terms
+            should describe desktop usage, payment packs, and account responsibilities.
           </p>
         </div>
       </section>
@@ -21,13 +21,13 @@ export function Terms() {
           </p>
           <h2>Subscriptions</h2>
           <p>
-            Clarify pricing, renewal timing, and how Pro access is granted once Razorpay is wired
-            into the site.
+            Clarify that AnswerFlow currently uses fixed time packs rather than a monthly
+            subscription, and explain how purchased time is applied to a signed-in account.
           </p>
           <h2>Cancellation</h2>
           <p>
-            Add your final refund and cancellation terms here before launch so the pricing page and
-            legal pages stay aligned.
+            Add final refund and cancellation terms here before launch so the pricing page and
+            legal pages stay aligned with the desktop purchase flow.
           </p>
         </div>
       </section>
