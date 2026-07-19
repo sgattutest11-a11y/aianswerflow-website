@@ -20,7 +20,7 @@ export function ScreenshotGallery() {
               <PanelsTopLeft size={18} />
               <span>Interview workspace</span>
             </div>
-            <img src={heroImage} alt="AnswerFlow desktop preview" />
+            <img src={heroImage} alt="AI Answerflow desktop preview" />
           </article>
 
           <article className="card screenshot-card">

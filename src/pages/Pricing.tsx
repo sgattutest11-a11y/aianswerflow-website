@@ -21,7 +21,7 @@ export function Pricing() {
           <div className="card callout-card">
             <h2>Desktop checkout flow</h2>
             <p>
-              AnswerFlow already exposes paid session packs through the desktop app, so the website
+              AI Answerflow already exposes paid session packs through the desktop app, so the website
               should describe the in-app purchase flow instead of a monthly subscription.
             </p>
           </div>

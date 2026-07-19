@@ -6,7 +6,7 @@ export function Privacy() {
           <p className="eyebrow">Privacy</p>
           <h1>Privacy overview</h1>
           <p>
-            This page should describe how AnswerFlow handles account sign-in, billing state, and
+            This page should describe how AI Answerflow handles account sign-in, billing state, and
             desktop-generated session content. Replace it with reviewed legal text before launch.
           </p>
         </div>
@@ -16,7 +16,7 @@ export function Privacy() {
         <div className="container prose-card card">
           <h2>Data handling</h2>
           <p>
-            AnswerFlow should only collect the minimum data needed to operate Google sign-in,
+            AI Answerflow should only collect the minimum data needed to operate Google sign-in,
             manage session-time balances, process payments, and support the desktop workflow.
           </p>
           <h2>Account information</h2>

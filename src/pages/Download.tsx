@@ -44,7 +44,7 @@ export function Download() {
             <ol className="content-list content-list--ordered">
               <li>Download the latest Windows installer.</li>
               <li>Run setup and allow the app to finish installing.</li>
-              <li>Launch AnswerFlow, sign in with Google, and start your first session.</li>
+              <li>Launch AI Answerflow, sign in with Google, and start your first session.</li>
             </ol>
           </article>
         </div>

@@ -21,7 +21,7 @@ export function Terms() {
           </p>
           <h2>Subscriptions</h2>
           <p>
-            Clarify that AnswerFlow currently uses fixed time packs rather than a monthly
+            Clarify that AI Answerflow currently uses fixed time packs rather than a monthly
             subscription, and explain how purchased time is applied to a signed-in account.
           </p>
           <h2>Cancellation</h2>

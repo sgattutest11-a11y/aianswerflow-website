@@ -1,4 +1,4 @@
-export const siteName = 'AnswerFlow AI'
+export const siteName = 'AI Answerflow'
 export const siteTagline = 'Desktop Interview Overlay'
 
 export const navLinks = [
@@ -68,7 +68,7 @@ export const faqItems = [
   {
     question: 'How does paid access work?',
     answer:
-      'AnswerFlow currently sells time packs through the desktop app: 1 hour for $10, 2 hours for $20, and 3 hours for $30.',
+      'AI Answerflow currently sells time packs through the desktop app: 1 hour for $10, 2 hours for $20, and 3 hours for $30.',
   },
   {
     question: 'Is the download available yet?',
