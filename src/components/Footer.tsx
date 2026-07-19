@@ -11,7 +11,7 @@ export function Footer() {
             <span>{siteName}</span>
           </Link>
           <p className="site-footer__copy">
-            AI interview support for coding rounds, practice sessions, and system design prep.
+            AI interview support for job interviews, practice sessions, and interview preparation in English.
           </p>
         </div>
 

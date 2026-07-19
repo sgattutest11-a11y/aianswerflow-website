@@ -9,7 +9,7 @@ export function HowItWorks() {
           <h2>From setup to interview confidence in minutes</h2>
           <p>
             The flow stays lightweight: open the app, ask for help, and use the guidance to shape
-            your explanation and implementation.
+            your explanation and delivery.
           </p>
         </div>
 

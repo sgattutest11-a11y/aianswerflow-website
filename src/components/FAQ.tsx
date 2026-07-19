@@ -6,9 +6,9 @@ export function FAQ() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">FAQ</p>
-          <h2>Short answers before launch</h2>
+          <h2>Common questions</h2>
           <p>
-            These common questions cover pricing, downloads, and the upcoming checkout flow.
+            These questions cover pricing, downloads, and current product limits such as language support.
           </p>
         </div>
 

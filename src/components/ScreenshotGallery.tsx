@@ -7,10 +7,10 @@ export function ScreenshotGallery() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">Screenshots</p>
-          <h2>A dark UI built for long technical sessions</h2>
+          <h2>A dark UI built for focused interview sessions</h2>
           <p>
             Showcase the product with desktop-style panels, subtle accents, and readable surfaces
-            that fit an AI developer tool.
+            that fit a fast interview workflow.
           </p>
         </div>
 
