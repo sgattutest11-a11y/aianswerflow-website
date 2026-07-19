@@ -6,8 +6,8 @@ export function Download() {
           <p className="eyebrow">Download</p>
           <h1>Get the latest Windows desktop build</h1>
           <p>
-            Use this page for the Windows installer, release notes, and first-run guidance around
-            Google sign-in and session setup.
+            AI Answerflow is currently supported only on Windows. Use this page for the Windows
+            installer, release notes, and first-run guidance around Google sign-in and session setup.
           </p>
         </div>
       </section>

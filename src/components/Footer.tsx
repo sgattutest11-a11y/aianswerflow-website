@@ -11,7 +11,7 @@ export function Footer() {
             <span>{siteName}</span>
           </Link>
           <p className="site-footer__copy">
-            AI interview support for job interviews, practice sessions, and interview preparation in English.
+            AI interview support for job interviews, coding rounds, system design rounds, and practice sessions in English.
           </p>
         </div>
 
@@ -29,9 +29,6 @@ export function Footer() {
           <div className="footer-links">
             <Link to="/privacy">Privacy</Link>
             <Link to="/terms">Terms</Link>
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
           </div>
         </div>
       </div>

@@ -16,6 +16,7 @@ export const heroChecks = [
   'Live transcription',
   'Screen capture OCR',
   'Session timer',
+  'Windows only',
   'English only',
 ]
 
@@ -23,7 +24,7 @@ export const featureCards = [
   {
     title: 'Live answer support',
     description:
-      'Get fast, focused responses during job interviews, behavioral rounds, HR screens, and technical interviews without leaving your current screen.',
+      'Get fast, focused responses during job interviews, behavioral rounds, HR screens, coding rounds, and system design rounds without leaving your current screen.',
     bullets: ['Context-aware answers', 'Low-friction overlay', 'Built for live interviews'],
   },
   {
@@ -85,6 +86,11 @@ export const faqItems = [
     question: 'Which languages are supported?',
     answer:
       'AI Answerflow currently supports English only for prompts, transcripts, and answer generation.',
+  },
+  {
+    question: 'Which operating systems are supported?',
+    answer:
+      'AI Answerflow is currently supported only on Windows.',
   },
 ]
 
