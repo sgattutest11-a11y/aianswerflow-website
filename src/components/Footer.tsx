@@ -37,7 +37,7 @@ export function Footer() {
       </div>
 
       <div className="container site-footer__bottom">
-        <span>© 2026 {siteName}. All rights reserved.</span>
+        <span>© 2022 {siteName}. All rights reserved.</span>
       </div>
     </footer>
   )
