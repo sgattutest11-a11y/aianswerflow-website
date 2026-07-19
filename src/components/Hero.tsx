@@ -9,7 +9,7 @@ export function Hero() {
       <div className="container hero-section__grid">
         <div>
           <p className="eyebrow">{siteTagline}</p>
-          <h1>Keep interview answers close without leaving your workflow</h1>
+          <h1>Keep interview answers close without leaving your current screen</h1>
           <p className="hero-copy">
             AI Answerflow is currently available only on Windows, with Google sign-in,
             session-based access, a protected overlay, and fast answer generation for job
