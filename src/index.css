@@ -613,6 +613,277 @@ ol {
   color: var(--text-secondary);
 }
 
+.app-shell--admin {
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.16), transparent 28%),
+    radial-gradient(circle at right, rgba(124, 58, 237, 0.18), transparent 24%),
+    var(--bg);
+}
+
+.site-main--admin {
+  padding: 2rem 0 3rem;
+}
+
+.admin-shell {
+  padding: 1rem 0 2rem;
+}
+
+.admin-auth-layout {
+  min-height: calc(100vh - 6rem);
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.admin-auth-copy h1,
+.admin-topbar h1,
+.admin-auth h1 {
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+  margin-top: 0.75rem;
+}
+
+.admin-auth-copy p:not(.eyebrow),
+.admin-topbar p:not(.eyebrow),
+.admin-auth p:not(.eyebrow) {
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  max-width: 42rem;
+}
+
+.admin-auth {
+  width: min(100%, 34rem);
+  padding: 1.75rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.admin-field span,
+.admin-detail-card span,
+.admin-session__grid span,
+.admin-stat span,
+.admin-transaction-row span {
+  color: var(--text-secondary);
+}
+
+.admin-input {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.8rem 0.95rem;
+  border-radius: 0.95rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  outline: none;
+}
+
+.admin-input:focus {
+  border-color: rgba(37, 99, 235, 0.45);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.admin-submit {
+  width: 100%;
+}
+
+.admin-hint,
+.admin-empty,
+.admin-panel__header p {
+  color: var(--text-secondary);
+}
+
+.admin-message {
+  padding: 0.8rem 0.95rem;
+  border-radius: 0.95rem;
+  border: 1px solid var(--border);
+}
+
+.admin-message--error {
+  color: #fecaca;
+  border-color: rgba(239, 68, 68, 0.25);
+  background: rgba(127, 29, 29, 0.25);
+}
+
+.admin-dashboard {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.admin-topbar,
+.admin-panel,
+.admin-stat {
+  padding: 1.5rem;
+}
+
+.admin-topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.admin-actions,
+.admin-filterbar,
+.admin-user-row,
+.admin-transaction-row,
+.admin-session__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.admin-actions {
+  flex-wrap: wrap;
+}
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.admin-stat {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.admin-stat strong,
+.admin-detail-card strong,
+.admin-session__grid strong,
+.admin-transaction-row strong {
+  font-size: 1.1rem;
+}
+
+.admin-panels {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 1.5rem;
+}
+
+.admin-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-panel__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.admin-filterbar {
+  flex-wrap: wrap;
+}
+
+.admin-filterbar .admin-input {
+  flex: 1 1 14rem;
+}
+
+.admin-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text-secondary);
+}
+
+.admin-user-list,
+.admin-transaction-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.admin-user-row,
+.admin-transaction-row {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  text-align: left;
+}
+
+.admin-user-row:hover {
+  border-color: rgba(37, 99, 235, 0.28);
+}
+
+.admin-user-row.is-selected {
+  border-color: rgba(37, 99, 235, 0.4);
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.admin-user-row > div,
+.admin-transaction-row > div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.admin-user-row__meta,
+.admin-transaction-row__meta {
+  justify-items: end;
+}
+
+.admin-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 5.5rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+}
+
+.admin-badge--success {
+  color: #86efac;
+  border-color: rgba(34, 197, 94, 0.26);
+  background: rgba(20, 83, 45, 0.32);
+}
+
+.admin-detail {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-detail__grid,
+.admin-session__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.admin-detail-card,
+.admin-session {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.admin-detail-card {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.admin-session {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-subheading {
+  margin: 0 0 0.8rem;
+  font-size: 1.05rem;
+}
+
 @media (max-width: 960px) {
   .site-header__inner,
   .site-nav,
@@ -631,7 +902,12 @@ ol {
   .steps-grid,
   .screenshot-grid,
   .pricing-grid,
-  .site-footer__grid {
+  .site-footer__grid,
+  .admin-auth-layout,
+  .admin-stats,
+  .admin-panels,
+  .admin-detail__grid,
+  .admin-session__grid {
     grid-template-columns: 1fr;
   }
 
@@ -645,6 +921,21 @@ ol {
 
   .site-header__inner {
     padding: 1rem 0;
+  }
+
+  .admin-topbar,
+  .admin-actions,
+  .admin-filterbar,
+  .admin-user-row,
+  .admin-transaction-row,
+  .admin-session__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-user-row__meta,
+  .admin-transaction-row__meta {
+    justify-items: start;
   }
 }
 
@@ -680,5 +971,16 @@ ol {
 
   .button {
     justify-content: center;
+  }
+
+  .site-main--admin {
+    padding-top: 1rem;
+  }
+
+  .admin-auth,
+  .admin-topbar,
+  .admin-panel,
+  .admin-stat {
+    padding: 1.25rem;
   }
 }
