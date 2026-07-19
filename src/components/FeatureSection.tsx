@@ -16,8 +16,8 @@ export function FeatureSection() {
           <p className="eyebrow">Features</p>
           <h2>Interview support that stays practical</h2>
           <p>
-            The experience is designed for real coding interviews, not generic chat. Keep answers
-            concise, technical, and useful under pressure.
+            The experience is designed for real interviews, not generic chat. Keep answers clear,
+            relevant, and useful under pressure.
           </p>
         </div>
 

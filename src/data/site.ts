@@ -1,5 +1,5 @@
 export const siteName = 'AI Answerflow'
-export const siteTagline = 'Desktop Interview Overlay'
+export const siteTagline = 'Desktop Interview Assistant'
 
 export const navLinks = [
   { label: 'Features', to: '/#features' },
@@ -16,14 +16,15 @@ export const heroChecks = [
   'Live transcription',
   'Screen capture OCR',
   'Session timer',
+  'English only',
 ]
 
 export const featureCards = [
   {
     title: 'Live answer support',
     description:
-      'Get fast, focused responses during coding rounds and technical interviews without leaving your current screen.',
-    bullets: ['Context-aware answers', 'Low-friction overlay', 'Built for live sessions'],
+      'Get fast, focused responses during job interviews, behavioral rounds, HR screens, and technical interviews without leaving your current screen.',
+    bullets: ['Context-aware answers', 'Low-friction overlay', 'Built for live interviews'],
   },
   {
     title: 'Desktop-first workflow',
@@ -39,7 +40,7 @@ export const featureCards = [
   },
 ]
 
-export const trustedLogos = ['Frontend Engineers', 'Backend Developers', 'Founding Teams', 'CS Students']
+export const trustedLogos = ['Job Seekers', 'Software Engineers', 'Founding Teams', 'Students']
 
 export const howItWorksSteps = [
   {
@@ -79,6 +80,11 @@ export const faqItems = [
     question: 'How do I buy more session time?',
     answer:
       'Open the desktop app, sign in with Google, and use the Buy Session Time flow to open Razorpay checkout.',
+  },
+  {
+    question: 'Which languages are supported?',
+    answer:
+      'AI Answerflow currently supports English only for prompts, transcripts, and answer generation.',
   },
 ]
 

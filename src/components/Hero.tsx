@@ -12,7 +12,7 @@ export function Hero() {
           <h1>Keep interview answers close without leaving your workflow</h1>
           <p className="hero-copy">
             AI Answerflow is a Windows desktop app with Google sign-in, session-based access, a
-            protected overlay, and fast answer generation for live technical interviews.
+            protected overlay, and fast answer generation for live interviews in English.
           </p>
 
           <ul className="hero-checks">
@@ -40,7 +40,7 @@ export function Hero() {
           <img src={heroImage} alt="AI Answerflow interface preview" />
           <div className="hero-visual__panel">
             <span>Question</span>
-            <p>Explain the time complexity, trade-offs, and edge cases clearly before you code.</p>
+            <p>Help me answer this clearly, confidently, and in a structured way.</p>
           </div>
         </div>
       </div>

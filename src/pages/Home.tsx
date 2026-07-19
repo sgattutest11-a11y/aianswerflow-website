@@ -14,7 +14,7 @@ export function Home() {
       <section className="section section--compact">
         <div className="container">
           <div className="trusted-strip card">
-            <span className="trusted-strip__title">Trusted by Developers</span>
+            <span className="trusted-strip__title">Built for interview prep</span>
             <div className="trusted-strip__items">
               {trustedLogos.map((item) => (
                 <span key={item}>{item}</span>
