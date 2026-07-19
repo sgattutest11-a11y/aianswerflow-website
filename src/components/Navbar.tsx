@@ -24,9 +24,6 @@ export function Navbar() {
           ))}
         </nav>
 
-        <button type="button" className="button button--ghost" aria-disabled="true">
-          Login
-        </button>
       </div>
     </header>
   )
