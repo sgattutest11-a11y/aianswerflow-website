@@ -1,4 +1,4 @@
-import { Code2, MonitorSmartphone, PanelsTopLeft } from 'lucide-react'
+import { PanelsTopLeft } from 'lucide-react'
 import heroImage from '../assets/hero.png'
 
 export function ScreenshotGallery() {
@@ -21,30 +21,6 @@ export function ScreenshotGallery() {
               <span>Interview workspace</span>
             </div>
             <img src={heroImage} alt="AI Answerflow desktop preview" />
-          </article>
-
-          <article className="card screenshot-card">
-            <div className="screenshot-card__header">
-              <Code2 size={18} />
-              <span>Live coding hints</span>
-            </div>
-            <div className="mock-console">
-              <span>{'>'} Clarify approach</span>
-              <span>{'>'} Compare trade-offs</span>
-              <span>{'>'} Explain complexity</span>
-            </div>
-          </article>
-
-          <article className="card screenshot-card">
-            <div className="screenshot-card__header">
-              <MonitorSmartphone size={18} />
-              <span>Remote interview view</span>
-            </div>
-            <div className="mock-window">
-              <div className="mock-window__line" />
-              <div className="mock-window__line mock-window__line--short" />
-              <div className="mock-window__panel" />
-            </div>
           </article>
         </div>
       </div>
