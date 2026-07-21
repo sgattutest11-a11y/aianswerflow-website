@@ -66,7 +66,7 @@ type TransactionsResponse = {
   transactions: AdminTransaction[]
 }
 
-const API_BASE_URL = String(import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api').replace(/\/+$/, '')
+const API_BASE_URL = String(import.meta.env.VITE_API_BASE_URL || 'https://api.aianswerflow.com/api').replace(/\/+$/, '')
 const ADMIN_TOKEN_KEY = 'answerflow_admin_token'
 const GOOGLE_USER_PARAM = 'user'
 const ADMIN_ROUTE_PATH = '/adminshivagattu'
