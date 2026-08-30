@@ -1,5 +1,5 @@
 export const siteName = 'AI Answerflow'
-export const siteTagline = 'Desktop Interview Assistant'
+export const siteTagline = 'AI Interview Practice Assistant'
 
 export const navLinks = [
   { label: 'Features', to: '/#features' },
@@ -12,9 +12,9 @@ export const navLinks = [
 export const heroChecks = [
   'Google sign-in',
   '10-minute free trial',
-  'Protected overlay',
-  'Live transcription',
-  'Screen capture OCR',
+  'Mock interview rounds',
+  'Answer feedback',
+  'Progress tracking',
   'Session timer',
   'Windows only',
   'English only',
@@ -22,22 +22,22 @@ export const heroChecks = [
 
 export const featureCards = [
   {
-    title: 'Live answer support',
+    title: 'Guided answer practice',
     description:
-      'Get fast, focused responses during job interviews, behavioral rounds, HR screens, coding rounds, and system design rounds without leaving your current screen.',
-    bullets: ['Context-aware answers', 'Low-friction overlay', 'Built for live interviews'],
+      'Practice clear, structured responses across behavioral rounds, HR screens, coding rounds, and system design rounds with real-time AI feedback.',
+    bullets: ['Structured answer help', 'Tailored practice rounds', 'Built for interview prep'],
   },
   {
     title: 'Desktop-first workflow',
     description:
-      'Add your resume, job description, and project files, then keep the overlay available while you work through the interview.',
+      'Add your resume, job description, and project files so practice questions and feedback match the role you are preparing for.',
     bullets: ['Resume and JD context', 'Project file support', 'Typed and spoken prompts'],
   },
   {
-    title: 'Protected overlay',
+    title: 'Progress tracking',
     description:
-      'Use screen share protection, session tracking, and capture tools designed around remote interview conditions.',
-    bullets: ['Screen share protection', 'Session countdown', 'Screen OCR capture'],
+      'Track practice time, review past answers, and see your delivery improve with each round.',
+    bullets: ['Answer review', 'Practice timer', 'Session history'],
   },
 ]
 
@@ -50,14 +50,14 @@ export const howItWorksSteps = [
       'Sign in with Google, review your remaining session time, and add your resume, role notes, or project files.',
   },
   {
-    title: 'Start the overlay',
+    title: 'Start a practice round',
     description:
-      'Launch the floating overlay before the interview starts so prompts, transcripts, and answers stay within reach.',
+      'Pick a question set from your resume and role notes, then begin a timed practice round with guidance in reach as you go.',
   },
   {
-    title: 'Use voice, text, or capture',
+    title: 'Answer and review',
     description:
-      'Speak, type, or capture text from the screen to generate answers while the server tracks session time in the background.',
+      'Respond by voice or text, get structured feedback on clarity and delivery, then review your answer afterward.',
   },
 ]
 
@@ -85,7 +85,7 @@ export const faqItems = [
   {
     question: 'Which languages are supported?',
     answer:
-      'AI Answerflow currently supports English only for prompts, transcripts, and answer generation.',
+      'AI Answerflow currently supports English only for prompts, transcripts, and answer feedback.',
   },
   {
     question: 'Which operating systems are supported?',
@@ -97,23 +97,23 @@ export const faqItems = [
 export const docsSections = [
   {
     title: 'Getting Started',
-    description: 'Learn the desktop flow from sign-in to launching the protected overlay.',
+    description: 'Learn the desktop flow from sign-in to your first practice session.',
   },
   {
     title: 'Installation',
     description: 'Download, install, and launch the Windows desktop app.',
   },
   {
-    title: 'First Interview',
+    title: 'Practice Rounds',
     description: 'Prepare your first session with resume context, job description, and project files.',
   },
   {
     title: 'Settings',
-    description: 'Review microphone, overlay, and session-related options.',
+    description: 'Review microphone, session, and feedback options.',
   },
   {
     title: 'FAQ',
-    description: 'Find short answers about sign-in, session time, and the overlay workflow.',
+    description: 'Find short answers about sign-in, session time, and the practice workflow.',
   },
   {
     title: 'Troubleshooting',

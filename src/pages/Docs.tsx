@@ -8,8 +8,7 @@ export function Docs() {
           <p className="eyebrow">Docs</p>
           <h1>Everything needed to start a desktop session</h1>
           <p>
-            The docs focus on Windows setup, Google sign-in, session-time usage, and the protected
-            overlay workflow.
+            The docs focus on Windows setup, Google sign-in, session-time usage, and practice rounds.
           </p>
         </div>
       </section>

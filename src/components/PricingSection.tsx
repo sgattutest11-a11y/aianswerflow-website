@@ -29,7 +29,7 @@ export function PricingSection({ standalone = false }: PricingSectionProps) {
               </li>
               <li>
                 <Check size={16} />
-                <span>Protected overlay workflow</span>
+                <span>Guided practice rounds</span>
               </li>
             </ul>
           </article>
