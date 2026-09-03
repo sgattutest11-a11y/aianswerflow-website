@@ -13,7 +13,8 @@ export function Hero() {
           <p className="hero-copy">
             AI Answerflow is currently available only on Windows, with Google sign-in,
             session-based access, and structured practice rounds with AI feedback for job
-            interviews, coding rounds, and system design rounds in English.
+            interviews, coding rounds, and system design rounds in English. Answer guidance stays
+            in a private overlay that is kept out of your screen share.
           </p>
 
           <ul className="hero-checks">

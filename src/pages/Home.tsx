@@ -1,8 +1,10 @@
+import { Advantages } from '../components/Advantages'
 import { FAQ } from '../components/FAQ'
 import { FeatureSection } from '../components/FeatureSection'
 import { Hero } from '../components/Hero'
 import { HowItWorks } from '../components/HowItWorks'
 import { PricingSection } from '../components/PricingSection'
+import { PrivacyAndUseCases } from '../components/PrivacyAndUseCases'
 import { ScreenshotGallery } from '../components/ScreenshotGallery'
 import { trustedLogos } from '../data/site'
 
@@ -24,11 +26,13 @@ export function Home() {
         </div>
       </section>
 
-      <FeatureSection />
       <HowItWorks />
+      <FeatureSection />
+      <PrivacyAndUseCases />
       <ScreenshotGallery />
       <PricingSection />
       <FAQ />
+      <Advantages />
     </>
   )
 }

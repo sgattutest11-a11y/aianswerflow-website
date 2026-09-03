@@ -1,4 +1,4 @@
-import { Bot, Braces, Video } from 'lucide-react'
+import { Bot, Braces, Video, EyeOff } from 'lucide-react'
 import { featureCards } from '../data/site'
 import { FeatureCard } from './FeatureCard'
 
@@ -6,6 +6,7 @@ const icons = [
   <Bot key="bot" size={22} />,
   <Braces key="braces" size={22} />,
   <Video key="video" size={22} />,
+  <EyeOff key="eyeoff" size={22} />,
 ]
 
 export function FeatureSection() {

@@ -6,10 +6,10 @@ export function HowItWorks() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">How It Works</p>
-          <h2>From setup to interview confidence in minutes</h2>
+          <h2>Prepare. Perform. Review.</h2>
           <p>
-            The flow stays lightweight: open the app, ask for help, and use the guidance to shape
-            your explanation and delivery.
+            One loop per round you are preparing for. Each review sets up the next practice
+            session.
           </p>
         </div>
 

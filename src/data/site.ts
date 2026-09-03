@@ -14,7 +14,7 @@ export const heroChecks = [
   '10-minute free trial',
   'Mock interview rounds',
   'Answer feedback',
-  'Progress tracking',
+  'Private overlay hidden from screen share',
   'Session timer',
   'Windows only',
   'English only',
@@ -34,6 +34,12 @@ export const featureCards = [
     bullets: ['Resume and JD context', 'Project file support', 'Typed and spoken prompts'],
   },
   {
+    title: 'Real-time screen guidance',
+    description:
+      'During practice, AI-backed answer help appears in a private window that stays on your screen and out of your screen share.',
+    bullets: ['Live answer help as you go', 'Private overlay window', 'English voice and typed support'],
+  },
+  {
     title: 'Progress tracking',
     description:
       'Track practice time, review past answers, and see your delivery improve with each round.',
@@ -43,19 +49,63 @@ export const featureCards = [
 
 export const trustedLogos = ['Job Seekers', 'Software Engineers', 'Founding Teams', 'Students']
 
+export const interviewTypes = [
+  'Behavioral rounds',
+  'HR screens',
+  'Coding rounds',
+  'System design rounds',
+  'Role-specific prep',
+]
+
+export const advantages = [
+  {
+    tag: 'One app',
+    title: 'Everything you need in one desktop window',
+    description:
+      'Practice, answer help, context files, and session controls all live in the same Windows app — no juggling separate tools during an interview.',
+    points: [
+      'Guided practice and answer feedback in one place',
+      'Resume, job description, and project files as context',
+      'Same workflow for every round you are preparing for',
+    ],
+  },
+  {
+    tag: 'Stays private',
+    title: 'Answer help that keeps you comfortable',
+    description:
+      'The overlay is a private, always-on-top window kept out of screen shares and recordings during supported video calls.',
+    points: [
+      'Hidden from what you share on screen',
+      'Show or hide it instantly with a shortcut',
+      'No bot joins your call and it never speaks for you',
+    ],
+  },
+  {
+    tag: 'Simple access',
+    title: 'Free to start, pay only for the time you use',
+    description:
+      'New accounts get a no-cost trial and then buy time in fixed packs — no monthly subscription to lock into.',
+    points: [
+      '10-minute free trial for new accounts',
+      'Choose a 1, 2, or 3 hour pack',
+      'Buy inside the desktop app with Razorpay',
+    ],
+  },
+]
+
 export const howItWorksSteps = [
   {
-    title: 'Sign in and prepare',
+    title: 'Prepare',
     description:
-      'Sign in with Google, review your remaining session time, and add your resume, role notes, or project files.',
+      'Sign in with Google, review your remaining session time, and attach your resume, role notes, or project files as context.',
   },
   {
-    title: 'Start a practice round',
+    title: 'Perform',
     description:
-      'Pick a question set from your resume and role notes, then begin a timed practice round with guidance in reach as you go.',
+      'Pick a question set for the round you are facing, then start a timed practice round with answer guidance in reach as you go.',
   },
   {
-    title: 'Answer and review',
+    title: 'Review',
     description:
       'Respond by voice or text, get structured feedback on clarity and delivery, then review your answer afterward.',
   },
@@ -86,6 +136,16 @@ export const faqItems = [
     question: 'Which languages are supported?',
     answer:
       'AI Answerflow currently supports English only for prompts, transcripts, and answer feedback.',
+  },
+  {
+    question: 'Is the practice window hidden during screen sharing?',
+    answer:
+      'Yes. The guidance overlay is a private, always-on-top window that is kept out of screen shares and recordings in supported video calls, so it stays on your screen without being shown to others.',
+  },
+  {
+    question: 'Which interview types can I practice?',
+    answer:
+      'AI Answerflow supports behavioral rounds, HR screens, coding rounds, and system design rounds, with typed and voice prompts in English.',
   },
   {
     question: 'Which operating systems are supported?',
