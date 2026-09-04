@@ -76,7 +76,7 @@ export const advantages = [
       'The overlay is a private, always-on-top window kept out of screen shares and recordings during supported video calls.',
     points: [
       'Hidden from what you share on screen',
-      'Show or hide it instantly with a shortcut',
+      'Private by default, invisible on otherside ',
       'No bot joins your call and it never speaks for you',
     ],
   },
