@@ -8,7 +8,7 @@ export function HowItWorks() {
           <p className="eyebrow">How It Works</p>
           <h2>Prepare. Perform. Review.</h2>
           <p>
-            One loop per round you are preparing for. Each review sets up the next practice
+            One loop per round you are preparing for. Each review sets up the next
             session.
           </p>
         </div>

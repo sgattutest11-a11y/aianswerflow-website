@@ -38,7 +38,7 @@ export function Download() {
             <h2>Release Notes</h2>
             <ul className="content-list">
               <li>Google sign-in flow</li>
-              <li>Guided practice rounds</li>
+              <li>Guided interview rounds</li>
               <li>Session timer and purchase flow</li>
             </ul>
           </article>

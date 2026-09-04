@@ -41,7 +41,7 @@ export function Advantages() {
           <div className="card callout-card">
             <h2>Your next round is the one that counts</h2>
             <p>
-              Download the Windows desktop app, sign in with Google, and start a practice round
+              Download the Windows desktop app, sign in with Google, and start a session
               right away.
             </p>
             <div className="hero-actions">

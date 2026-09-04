@@ -9,10 +9,10 @@ export function Hero() {
       <div className="container hero-section__grid">
         <div>
           <p className="eyebrow">{siteTagline}</p>
-          <h1>Practice interviews and get instant coaching on every answer</h1>
+          <h1>Ace your interview with real-time AI answer guidance</h1>
           <p className="hero-copy">
             AI Answerflow is currently available only on Windows, with Google sign-in,
-            session-based access, and structured practice rounds with AI feedback for job
+            session-based access, and structured interview rounds with AI feedback for job
             interviews, coding rounds, and system design rounds in English. Answer guidance stays
             in a private overlay that is kept out of your screen share.
           </p>
@@ -38,11 +38,11 @@ export function Hero() {
         </div>
 
         <div className="hero-visual card">
-          <div className="hero-visual__badge">Practice workspace preview</div>
+          <div className="hero-visual__badge">Session workspace preview</div>
           <img src={heroImage} alt="AI Answerflow interface preview" />
           <div className="hero-visual__panel">
             <span>Question</span>
-            <p>Help me practice this clearly, confidently, and in a structured way.</p>
+            <p>Help me answer this clearly, confidently, and in a structured way.</p>
           </div>
         </div>
       </div>

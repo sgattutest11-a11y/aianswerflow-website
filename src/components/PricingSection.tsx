@@ -29,7 +29,7 @@ export function PricingSection({ standalone = false }: PricingSectionProps) {
               </li>
               <li>
                 <Check size={16} />
-                <span>Guided practice rounds</span>
+                <span>Guided interview rounds</span>
               </li>
             </ul>
           </article>

@@ -18,7 +18,7 @@ export function ScreenshotGallery() {
           <article className="card screenshot-card screenshot-card--large">
             <div className="screenshot-card__header">
               <PanelsTopLeft size={18} />
-              <span>Practice workspace</span>
+              <span>Session workspace</span>
             </div>
             <img src={heroImage} alt="AI Answerflow desktop preview" />
           </article>

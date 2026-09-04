@@ -15,9 +15,9 @@ export function FeatureSection() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">Features</p>
-          <h2>Interview practice that stays practical</h2>
+          <h2>Interview prep that stays practical</h2>
           <p>
-            The experience is designed for realistic practice rounds, not generic chat. Shape clear,
+            The experience is designed for realistic interview rounds, not generic chat. Shape clear,
             relevant answers and build confidence under pressure.
           </p>
         </div>

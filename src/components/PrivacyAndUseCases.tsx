@@ -20,7 +20,7 @@ export function PrivacyAndUseCases() {
               <span className="pill">Private overlay</span>
               <h2>On your side, not on their screen</h2>
               <ul className="content-list">
-                <li>Always-on-top answer window during practice</li>
+                <li>Always-on-top answer window during a session</li>
                 <li>Kept out of screen shares and recordings</li>
                 <li>No bot joins your call and it never speaks for you</li>
               </ul>

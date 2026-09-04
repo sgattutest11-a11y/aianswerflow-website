@@ -1,5 +1,5 @@
 export const siteName = 'AI Answerflow'
-export const siteTagline = 'AI Interview Practice Assistant'
+export const siteTagline = 'AI Answer CoPilot'
 
 export const navLinks = [
   { label: 'Features', to: '/#features' },
@@ -22,28 +22,28 @@ export const heroChecks = [
 
 export const featureCards = [
   {
-    title: 'Guided answer practice',
+    title: 'Guided answer feedback',
     description:
-      'Practice clear, structured responses across behavioral rounds, HR screens, coding rounds, and system design rounds with real-time AI feedback.',
-    bullets: ['Structured answer help', 'Tailored practice rounds', 'Built for interview prep'],
+      'Craft clear, structured responses across behavioral rounds, HR screens, coding rounds, and system design rounds with real-time AI feedback.',
+    bullets: ['Structured answer help', 'Tailored interview rounds', 'Built for interview prep'],
   },
   {
     title: 'Desktop-first workflow',
     description:
-      'Add your resume, job description, and project files so practice questions and feedback match the role you are preparing for.',
+      'Add your resume, job description, and project files so questions and feedback match the role you are preparing for.',
     bullets: ['Resume and JD context', 'Project file support', 'Typed and spoken prompts'],
   },
   {
     title: 'Real-time screen guidance',
     description:
-      'During practice, AI-backed answer help appears in a private window that stays on your screen and out of your screen share.',
+      'AI-backed answer help appears in a private window that stays on your screen and out of your screen share.',
     bullets: ['Live answer help as you go', 'Private overlay window', 'English voice and typed support'],
   },
   {
     title: 'Progress tracking',
     description:
-      'Track practice time, review past answers, and see your delivery improve with each round.',
-    bullets: ['Answer review', 'Practice timer', 'Session history'],
+      'Track session time, review past answers, and see your delivery improve with each round.',
+    bullets: ['Answer review', 'Session timer', 'Session history'],
   },
 ]
 
@@ -62,9 +62,9 @@ export const advantages = [
     tag: 'One app',
     title: 'Everything you need in one desktop window',
     description:
-      'Practice, answer help, context files, and session controls all live in the same Windows app — no juggling separate tools during an interview.',
+      'Answer help, context files, and session controls all live in the same Windows app — no juggling separate tools during an interview.',
     points: [
-      'Guided practice and answer feedback in one place',
+      'Guided answer feedback in one place',
       'Resume, job description, and project files as context',
       'Same workflow for every round you are preparing for',
     ],
@@ -102,7 +102,7 @@ export const howItWorksSteps = [
   {
     title: 'Perform',
     description:
-      'Pick a question set for the round you are facing, then start a timed practice round with answer guidance in reach as you go.',
+      'Pick a question set for the round you are facing, then start a timed session with answer guidance in reach as you go.',
   },
   {
     title: 'Review',
@@ -138,12 +138,12 @@ export const faqItems = [
       'AI Answerflow currently supports English only for prompts, transcripts, and answer feedback.',
   },
   {
-    question: 'Is the practice window hidden during screen sharing?',
+    question: 'Is the answer window hidden during screen sharing?',
     answer:
       'Yes. The guidance overlay is a private, always-on-top window that is kept out of screen shares and recordings in supported video calls, so it stays on your screen without being shown to others.',
   },
   {
-    question: 'Which interview types can I practice?',
+    question: 'Which interview types can I prepare for?',
     answer:
       'AI Answerflow supports behavioral rounds, HR screens, coding rounds, and system design rounds, with typed and voice prompts in English.',
   },
@@ -157,14 +157,14 @@ export const faqItems = [
 export const docsSections = [
   {
     title: 'Getting Started',
-    description: 'Learn the desktop flow from sign-in to your first practice session.',
+    description: 'Learn the desktop flow from sign-in to your first session.',
   },
   {
     title: 'Installation',
     description: 'Download, install, and launch the Windows desktop app.',
   },
   {
-    title: 'Practice Rounds',
+    title: 'Interview Rounds',
     description: 'Prepare your first session with resume context, job description, and project files.',
   },
   {
@@ -173,7 +173,7 @@ export const docsSections = [
   },
   {
     title: 'FAQ',
-    description: 'Find short answers about sign-in, session time, and the practice workflow.',
+    description: 'Find short answers about sign-in, session time, and the session workflow.',
   },
   {
     title: 'Troubleshooting',
