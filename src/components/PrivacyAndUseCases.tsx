@@ -30,7 +30,7 @@ export function PrivacyAndUseCases() {
               <span className="pill">What you control</span>
               <h2>Answer help you can hide in one motion</h2>
               <ul className="content-list">
-                <li>Show or hide the overlay instantly</li>
+                <li>Always private — hidden from your screen share by default</li>
                 <li>Resize and reposition to keep it clear of your work</li>
                 <li>Works with keyboard shortcuts for a smooth flow</li>
               </ul>
