@@ -47,7 +47,7 @@ export const featureCards = [
   },
 ]
 
-export const trustedLogos = ['Job Seekers', 'Software Engineers', 'Founding Teams', 'Students']
+export const trustedLogos = ['Live interviews', 'Live coding rounds', 'System design', 'Behavioral rounds']
 
 export const interviewTypes = [
   'Behavioral rounds',
