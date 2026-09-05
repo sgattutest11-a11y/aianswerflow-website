@@ -11,7 +11,7 @@ export const navLinks = [
 
 export const heroChecks = [
   'Google sign-in',
-  '10-minute free trial',
+  '15-minute free trial',
   'Mock interview rounds',
   'Answer feedback',
   'Private overlay hidden from screen share',
@@ -86,7 +86,7 @@ export const advantages = [
     description:
       'New accounts get a no-cost trial and then buy time in fixed packs — no monthly subscription to lock into.',
     points: [
-      '10-minute free trial for new accounts',
+      '15-minute free trial for new accounts',
       'Choose a 1, 2, or 3 hour pack',
       'Buy inside the desktop app with Razorpay',
     ],
@@ -115,7 +115,7 @@ export const faqItems = [
   {
     question: 'What does the free plan include?',
     answer:
-      'New accounts start with a 10-minute free trial so you can test the desktop workflow before buying more time.',
+      'New accounts start with a 15-minute free trial so you can test the desktop workflow before buying more time.',
   },
   {
     question: 'How does paid access work?',
