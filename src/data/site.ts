@@ -182,7 +182,7 @@ export const docsSections = [
 ]
 
 export const contactChannels = [
-  { label: 'Email', value: 'support@answerflow.ai', href: 'mailto:support@answerflow.ai' },
+  { label: 'Email', value: 'support@aianswerflow.com', href: 'mailto:support@aianswerflow.com' },
   { label: 'Docs', value: 'Setup guides', href: '/docs' },
   { label: 'Pricing', value: 'Session packs', href: '/pricing' },
   { label: 'Download', value: 'Windows desktop app', href: '/download' },
