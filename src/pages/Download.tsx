@@ -1,5 +1,5 @@
 const DOWNLOAD_URL =
-  'https://github.com/sgattutest11-a11y/aianswerflow-website/releases/download/v1.0.0/Ai.AnswerFlow-Setup-2.0.0.exe'
+  'https://github.com/sgattutest11-a11y/aianswerflow-website/releases/download/v1.0.0/Ai.AnswerFlow-Setup-1.0.0.exe'
 
 export function Download() {
   return (
@@ -20,11 +20,11 @@ export function Download() {
           <article className="card info-card">
             <span className="pill">Windows</span>
             <h2>Download Latest</h2>
-            <p>Ai AnswerFlow Setup 2.0.0 (Windows, ~205 MB)</p>
+            <p>Ai AnswerFlow Setup 1.0.0 (Windows, ~205 MB)</p>
             <a
               className="button button--primary"
               href={DOWNLOAD_URL}
-              download="Ai-AnswerFlow-Setup-2.0.0.exe"
+              download="Ai-AnswerFlow-Setup-1.0.0.exe"
             >
               Download Latest
             </a>
