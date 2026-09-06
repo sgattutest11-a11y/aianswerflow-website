@@ -29,7 +29,7 @@ export function Download() {
               Download Latest
             </a>
             <p className="muted-text">
-              Latest packaged Electron release. On Windows, save and run the installer.
+              On Windows, save and run the installer.
             </p>
           </article>
 
