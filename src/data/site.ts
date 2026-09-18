@@ -120,7 +120,7 @@ export const faqItems = [
   {
     question: 'How does paid access work?',
     answer:
-      'AI Answerflow currently sells time packs through the desktop app: 1 hour for $10, 2 hours for $20, and 3 hours for $30.',
+      'AI Answerflow currently sells time packs through the desktop app: 1 hour for ₹500, 2 hours for ₹1000, and 3 hours for ₹1500.',
   },
   {
     question: 'Is the download available yet?',

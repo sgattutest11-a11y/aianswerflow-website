@@ -36,20 +36,20 @@ export function PricingSection({ standalone = false }: PricingSectionProps) {
 
           <article className="card pricing-card pricing-card--highlight">
             <span className="pricing-card__label">Time packs</span>
-            <h3>$10+</h3>
+            <h3>₹500+</h3>
             <p>Buy session time in the app</p>
             <ul>
               <li>
                 <Check size={16} />
-                <span>1 hour for $10</span>
+                <span>1 hour for ₹500</span>
               </li>
               <li>
                 <Check size={16} />
-                <span>2 hours for $20</span>
+                <span>2 hours for ₹1000</span>
               </li>
               <li>
                 <Check size={16} />
-                <span>3 hours for $30</span>
+                <span>3 hours for ₹1500</span>
               </li>
             </ul>
             <button type="button" className="button button--primary pricing-card__cta">
